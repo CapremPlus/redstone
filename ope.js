@@ -1,1 +1,7 @@
-mql.matches&&(window.onload=function(){var t=document.getElementById("cprights");null==t&&(window.location.href="http://www.capremplus.com"),t.setAttribute("href","http://www.capremplus.com"),t.setAttribute("rel","nofollow"),t.innerHTML=" <a href='http://www.capremplus.com' rel='nofollow' target='_blank'>كابريم بلس</a>"});
+window.onload = function(){ 
+    var copy=document.getElementById("cprights");     
+    if(copy==null){
+        window.location.href="http://www.capremplus.com/";
+    };
+    copy.setAttribute("href","http://www.capremplus.com/");
+    copy.innerHTML="كابريم بلس"
